@@ -1063,4 +1063,110 @@ footer .footer-center p span{
     
 }
 /* Media query display size 425px */
+
+/* Media query display size 375px */
+@media only screen and (max-width:376px){
+    /* About section */
+    .about-center .left{
+        top: 585px;
+        left: 60px;
+    }
+    /* About section */
+
+    /* Services section */
+    .services-center .right .loading-1 h3{
+        margin-left: 150px;
+    }
+    .services-center .right .loading-2 h3{
+        margin-left: 215px;
+    }
+    .services-center .right .loading-3 h3{
+        margin-left: 275px;
+    }
+    /* Services section */
+}
+/* Media query display size 375px */
+
+
+/* Media query display size 375px */
+@media only screen and (max-width:320px){
+    /* Home section */
+    .home-center .left .searchbox input{
+        width: 55%;
+        padding: 14px 20px;
+    }
+    .home-center .left .searchbox button{
+        width: 44%;
+        padding: 11px 0;
+        
+    }
+    /* Home section */
+
+    /* Services section */
+    .services-center .right .loading-1 h3{
+        margin-left: 120px;
+    }
+    .services-center .right .loading-2 h3{
+        margin-left: 170px;
+    }
+    .services-center .right .loading-3 h3{
+        margin-left: 230px;
+    }
+    /* Services section */
+
+    /* Blog section */
+    .blog-center .left .white-box h1{
+        text-align: left;
+        margin-top: 30px;
+        line-height: 30px;
+    }
+    .blog-center .left .white-box span:nth-child(3){
+        margin-left: 0;
+        display: block;
+        position: relative;
+        top: 15px;
+        
+    }
+    .blog-center .left .white-box span:nth-child(4){
+        margin: 0;
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+    .blog-center .left .white-box span:nth-child(5){
+        margin: 10px 0 0 0;
+        position: relative;
+        top: 20px;
+        left: -90px;
+    }
+    .blog-center .left .white-box span:nth-child(6){
+        position: relative;
+        top: 20px;
+        left: -90px;
+    }
+    .blog-center .left button{
+        width: 48%;
+        transition: all 0.5s;
+    }
+    /* Blog section */
+
+    /* Message section */
+    .message .message-center .left h2 span:nth-child(1){
+        margin-top: 20px;
+        padding: 12px 15px;
+    }
+    .message .message-center .right form button{
+        width: 55%;
+    }
+    /* Message section */
+
+    /* Footer section */
+    footer .footer-center{
+        width: 85%;
+    }
+    /* Footer section */
+}
+/* Media query display size 375px */
+
+
 /* Media query end */
